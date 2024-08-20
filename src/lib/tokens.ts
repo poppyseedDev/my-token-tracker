@@ -1,12 +1,16 @@
 import { ethers } from 'ethers';
 import { mainnet, polygon, optimism, arbitrum } from 'wagmi/chains';
-import * as tokenList from './tokens.json';
+import * as tokenListUN from './tokens.json';
 import { Provider } from 'ethers';
+import { TokenList } from './types';
+
+const tokenList: TokenList = tokenListUN;
 
 interface TokenBalance {
   symbol: string;
   balance: string;
   chain: string;
+  logoURI?: string;
 }
 
 const networks = [mainnet, polygon, optimism];
@@ -72,6 +76,7 @@ async function fetchTokenBalance(
       symbol,
       balance: ethers.formatUnits(balance, token.decimals),
       chain: chain.name,
+      logoURI: token.logoURI,
     });
     console.log(`Fetched ${symbol} balance from ${chain.name}:`, balance.toString());
   } catch (error) {
