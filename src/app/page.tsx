@@ -3,7 +3,7 @@
 import { useAccount } from 'wagmi';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useState, useEffect, useCallback } from 'react';
-import { getERC20Tokens } from '@/lib/tokens';
+import { getERC20Tokens } from '@/lib/tokenList/tokens';
 
 export default function Home() {
   const { address, isConnected } = useAccount();
