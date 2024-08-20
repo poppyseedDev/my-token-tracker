@@ -1,7 +1,4 @@
 import { useState, useEffect } from 'react';
-//Importing Next
-import Image from 'next/image';
-import Link from 'next/link';
 //Importing RainbowKit
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { MainNav } from "@/components/layout/main-nav"

@@ -2,20 +2,14 @@
 
 import { useAccount, useConnect, useDisconnect } from 'wagmi';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { getERC20Tokens } from '@/lib/tokens';
 
 export default function Home() {
   const { address, isConnected } = useAccount();
   const [tokens, setTokens] = useState<{ symbol: string; balance: string; chain: string }[]>([]);
-
-  useEffect(() => {
-    if (isConnected && address) {
-      fetchTokens();
-    }
-  }, [isConnected, address]);
-
-  const fetchTokens = async () => {
+  
+  const fetchTokens = useCallback(async () => {
     try {
       if (address) {
         const tokenData = await getERC20Tokens(address);
@@ -24,7 +18,13 @@ export default function Home() {
     } catch (error) {
       console.error('Error fetching tokens:', error);
     }
-  };
+  }, [address]); // Added address as a dependency
+  
+  useEffect(() => {
+    if (isConnected && address) {
+      fetchTokens();
+    }
+  }, [isConnected, address, fetchTokens]);
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">

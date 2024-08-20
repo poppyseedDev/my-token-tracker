@@ -6,80 +6,83 @@ settings:
 
 dependencies:
   '@emotion/react':
-    specifier: ^11.11.4
+    specifier: ^11.13.0
     version: 11.13.0(@types/react@18.3.3)(react@18.3.1)
   '@emotion/styled':
-    specifier: ^11.11.5
+    specifier: ^11.13.0
     version: 11.13.0(@emotion/react@11.13.0)(@types/react@18.3.3)(react@18.3.1)
   '@mui/material':
-    specifier: ^5.15.20
+    specifier: ^5.16.7
     version: 5.16.7(@emotion/react@11.13.0)(@emotion/styled@11.13.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-accordion':
     specifier: ^1.2.0
     version: 1.2.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-alert-dialog':
-    specifier: ^1.0.2
+    specifier: ^1.1.1
     version: 1.1.1(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-avatar':
-    specifier: ^1.0.1
+    specifier: ^1.1.0
     version: 1.1.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-checkbox':
-    specifier: ^1.0.1
+    specifier: ^1.1.1
     version: 1.1.1(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-dialog':
-    specifier: ^1.0.2
+    specifier: ^1.1.1
     version: 1.1.1(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-dropdown-menu':
-    specifier: ^2.0.1
+    specifier: ^2.1.1
     version: 2.1.1(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-form':
     specifier: ^0.0.2
     version: 0.0.2(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-label':
-    specifier: ^2.0.0
+    specifier: ^2.1.0
     version: 2.1.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-navigation-menu':
-    specifier: ^1.1.1
+    specifier: ^1.2.0
     version: 1.2.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-popover':
-    specifier: ^1.0.2
+    specifier: ^1.1.1
     version: 1.1.1(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-progress':
-    specifier: ^1.0.1
+    specifier: ^1.1.0
     version: 1.1.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-scroll-area':
-    specifier: ^1.0.2
+    specifier: ^1.1.0
     version: 1.1.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-select':
-    specifier: ^1.2.0
+    specifier: ^1.2.2
     version: 1.2.2(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-separator':
-    specifier: ^1.0.1
+    specifier: ^1.1.0
     version: 1.1.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-slot':
-    specifier: ^1.0.2
+    specifier: ^1.1.0
     version: 1.1.0(@types/react@18.3.3)(react@18.3.1)
   '@radix-ui/react-switch':
-    specifier: ^1.0.1
+    specifier: ^1.1.0
     version: 1.1.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-tabs':
-    specifier: ^1.0.2
+    specifier: ^1.1.0
     version: 1.1.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-toast':
-    specifier: ^1.1.3
+    specifier: ^1.2.1
     version: 1.2.1(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@radix-ui/react-tooltip':
-    specifier: ^1.0.3
+    specifier: ^1.1.2
     version: 1.1.2(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@rainbow-me/rainbowkit':
-    specifier: ^2.1.2
+    specifier: ^2.1.4
     version: 2.1.4(@tanstack/react-query@5.51.24)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)(viem@2.19.7)(wagmi@2.12.5)
   '@t3-oss/env-nextjs':
     specifier: ^0.10.1
     version: 0.10.1(typescript@5.5.4)(zod@3.23.8)
   '@tanstack/react-query':
-    specifier: ^5.48.0
+    specifier: ^5.51.24
     version: 5.51.24(react@18.3.1)
+  '@uniswap/token-lists':
+    specifier: 1.0.0-beta.34
+    version: 1.0.0-beta.34
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -90,7 +93,7 @@ dependencies:
     specifier: ^16.4.5
     version: 16.4.5
   ethers:
-    specifier: ^6.13.1
+    specifier: ^6.13.2
     version: 6.13.2
   next:
     specifier: 14.2.4
@@ -99,51 +102,51 @@ dependencies:
     specifier: ^0.3.0
     version: 0.3.0(react-dom@18.3.1)(react@18.3.1)
   react:
-    specifier: ^18
+    specifier: ^18.3.1
     version: 18.3.1
   react-dom:
-    specifier: ^18
+    specifier: ^18.3.1
     version: 18.3.1(react@18.3.1)
   react-icons:
-    specifier: ^5.2.1
+    specifier: ^5.3.0
     version: 5.3.0(react@18.3.1)
   tailwind-merge:
-    specifier: ^2.3.0
+    specifier: ^2.5.2
     version: 2.5.2
   viem:
-    specifier: 2.x
+    specifier: ~2.19.7
     version: 2.19.7(typescript@5.5.4)(zod@3.23.8)
   wagmi:
-    specifier: ^2.10.7
+    specifier: ^2.12.5
     version: 2.12.5(@tanstack/react-query@5.51.24)(@types/react@18.3.3)(react-dom@18.3.1)(react-native@0.75.1)(react@18.3.1)(typescript@5.5.4)(viem@2.19.7)(zod@3.23.8)
 
 devDependencies:
   '@types/node':
-    specifier: ^20
+    specifier: ^20.16.0
     version: 20.16.0
   '@types/react':
-    specifier: ^18
+    specifier: ^18.3.3
     version: 18.3.3
   '@types/react-dom':
-    specifier: ^18
+    specifier: ^18.3.0
     version: 18.3.0
   autoprefixer:
-    specifier: ^10.4.19
+    specifier: ^10.4.20
     version: 10.4.20(postcss@8.4.41)
   eslint:
-    specifier: ^8
+    specifier: ^8.57.0
     version: 8.57.0
   eslint-config-next:
     specifier: 14.2.4
     version: 14.2.4(eslint@8.57.0)(typescript@5.5.4)
   postcss:
-    specifier: ^8.4.38
+    specifier: ^8.4.41
     version: 8.4.41
   tailwindcss:
-    specifier: ^3.4.4
+    specifier: ^3.4.10
     version: 3.4.10
   typescript:
-    specifier: ^5
+    specifier: ^5.5.4
     version: 5.5.4
 
 packages:
@@ -1928,7 +1931,7 @@ packages:
     dependencies:
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       jest-mock: 29.7.0
     dev: false
 
@@ -1938,7 +1941,7 @@ packages:
     dependencies:
       '@jest/types': 29.6.3
       '@sinonjs/fake-timers': 10.3.0
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       jest-message-util: 29.7.0
       jest-mock: 29.7.0
       jest-util: 29.7.0
@@ -1957,7 +1960,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       '@types/yargs': 15.0.19
       chalk: 4.1.2
     dev: false
@@ -1969,7 +1972,7 @@ packages:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       '@types/yargs': 17.0.33
       chalk: 4.1.2
     dev: false
@@ -4879,7 +4882,7 @@ packages:
   /@types/node-forge@1.3.11:
     resolution: {integrity: sha512-FQx220y22OKNTqaByeBGqHWYz4cl94tpcxeFdvBo3wjG6XPBuZ0BNgNZRV5J5TFmmcsJ4IzsLkmGRiQbnYsBEQ==}
     dependencies:
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
     dev: false
 
   /@types/node@18.15.13:
@@ -4890,6 +4893,12 @@ packages:
     resolution: {integrity: sha512-vDxceJcoZhIVh67S568bm1UGZO0DX0hpplJZxzeXMKwIPLn190ec5RRxQ69BKhX44SUGIxxgMdDY557lGLKprQ==}
     dependencies:
       undici-types: 6.19.6
+
+  /@types/node@20.16.1:
+    resolution: {integrity: sha512-zJDo7wEadFtSyNz5QITDfRcrhqDvQI1xQNQ0VoizPjM/dVAODqqIUWbJPkvsxmTI0MYRGRikcdjMPhOssnPejQ==}
+    dependencies:
+      undici-types: 6.19.8
+    dev: false
 
   /@types/parse-json@4.0.2:
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -5012,6 +5021,11 @@ packages:
   /@ungap/structured-clone@1.2.0:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
+
+  /@uniswap/token-lists@1.0.0-beta.34:
+    resolution: {integrity: sha512-Hc3TfrFaupg0M84e/Zv7BoF+fmMWDV15mZ5s8ZQt2qZxUcNw2GQW+L6L/2k74who31G+p1m3GRYbJpAo7d1pqA==}
+    engines: {node: '>=10'}
+    dev: false
 
   /@vanilla-extract/css@1.14.0:
     resolution: {integrity: sha512-rYfm7JciWZ8PFzBM/HDiE2GLnKI3xJ6/vdmVJ5BSgcCZ5CxRlM9Cjqclni9lGzF3eMOijnUhCd/KV8TOzyzbMA==}
@@ -6052,7 +6066,7 @@ packages:
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -6063,7 +6077,7 @@ packages:
   /chromium-edge-launcher@0.2.0:
     resolution: {integrity: sha512-JfJjUnq25y9yg4FABRRVPmBGWPZZi+AQXT4mxupb67766/0UlhG8PAZCz6xzEMXTbW3CsSoE8PcCWA49n35mKg==}
     dependencies:
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -8166,7 +8180,7 @@ packages:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       jest-mock: 29.7.0
       jest-util: 29.7.0
     dev: false
@@ -8196,7 +8210,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       jest-util: 29.7.0
     dev: false
 
@@ -8205,7 +8219,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -8228,7 +8242,7 @@ packages:
     resolution: {integrity: sha512-eIz2msL/EzL9UFTFFx7jBTkeZfku0yUAyZZZmJ93H2TYEiroIx2PQjEXcwYtYl8zXCxb+PAmA2hLIt/6ZEkPHw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@types/node': 20.16.0
+      '@types/node': 20.16.1
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -10974,6 +10988,10 @@ packages:
 
   /undici-types@6.19.6:
     resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
+
+  /undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
+    dev: false
 
   /unenv@1.10.0:
     resolution: {integrity: sha512-wY5bskBQFL9n3Eca5XnhH6KbUo/tfvkwm9OpcdCvLaeA7piBNbavbOKJySEwQ1V0RH6HvNlSAFRTpvTqgKRQXQ==}
