@@ -1,6 +1,7 @@
 import { HTMLAttributes } from "react"
 
 import { cn } from "@/lib/utils"
+import React from "react"
 
 interface ITableHead extends HTMLAttributes<HTMLTableSectionElement> {
   headerGroups: any

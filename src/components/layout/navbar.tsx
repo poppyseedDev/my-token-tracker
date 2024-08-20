@@ -31,8 +31,7 @@ export default function NavBar() {
           <div className="flex pt-2 md:pt-0 items-center justify-center">
               <ConnectButton />
               <ModeToggle />
-
-        </div>
+          </div>
 
       </nav>
     </header>

@@ -13,6 +13,7 @@ import {
 import TableBody from "./table-body"
 import TableHead from "./table-head"
 import TablePagination from "./table-pagination"
+import React from "react"
 
 interface TableProps extends HTMLAttributes<HTMLDivElement> {
   data: Array<any>

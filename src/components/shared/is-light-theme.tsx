@@ -2,6 +2,7 @@
 
 import { ReactNode } from "react"
 import { useTheme } from "next-themes"
+import React from "react"
 
 interface IsLightThemeProps {
   children: ReactNode

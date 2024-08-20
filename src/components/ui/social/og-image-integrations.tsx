@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og"
 import { eigenIntegrations } from "@/data/turbo-integrations"
 import { env } from "env.mjs"
+import React from "react"
 
 export const runtime = "edge"
 

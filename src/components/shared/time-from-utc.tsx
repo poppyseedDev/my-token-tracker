@@ -1,5 +1,6 @@
 import { HTMLAttributes, useEffect, useState } from "react"
 import { DateTime } from "luxon"
+import React from "react"
 
 interface TimeFromUtcProps extends HTMLAttributes<HTMLSpanElement> {
   date: string
@@ -15,7 +16,7 @@ export const TimeFromUtc = ({
     if (date) {
       setTimestamp(DateTime.fromISO(date).toLocaleString(DateTime.DATETIME_MED))
     }
-  }, [])
+  }, [date])
   return (
     <span className={className} {...props}>
       {timestamp}

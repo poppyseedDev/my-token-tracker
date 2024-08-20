@@ -1,5 +1,6 @@
 import { HTMLAttributes, useEffect, useState } from "react"
 import { DateTime } from "luxon"
+import React from "react"
 
 interface TimeFromEpochProps extends HTMLAttributes<HTMLSpanElement> {
   epoch?: number | string
@@ -19,7 +20,7 @@ export const TimeFromEpoch = ({
         )
       )
     }
-  }, [])
+  }, [epoch])
   return (
     <span className={className} {...props}>
       {timestamp}

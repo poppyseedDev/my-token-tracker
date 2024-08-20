@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils"
 import { fadeUpVariant } from "@/lib/utils/motion"
 import { buttonVariants } from "@/components/ui/button"
 import { PageSectionGrid } from "@/components/layout/page-section"
+import React from "react"
 
 const demos = [
   {
