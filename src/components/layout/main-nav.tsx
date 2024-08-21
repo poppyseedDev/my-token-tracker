@@ -65,11 +65,9 @@ function MainNavMenu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <LinkComponent href="https://docs.lastic.xyz/">
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              <span>Documentation</span>
-            </NavigationMenuLink>
-          </LinkComponent>
+          <NavigationMenuLink className={navigationMenuTriggerStyle()} href="https://docs.lastic.xyz/">
+                <span>Documentation</span>
+          </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

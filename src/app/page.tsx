@@ -8,6 +8,12 @@ import { getERC20Tokens } from '@/lib/tokenList/tokens';
 export default function Home() {
   const { address, isConnected } = useAccount();
   const [tokens, setTokens] = useState<{ symbol: string; balance: string; chain: string; logoURI?: string }[]>([]);
+  const [isHydrated, setIsHydrated] = useState(false);
+
+  // Ensure the component is hydrated on the client before rendering
+  useEffect(() => {
+    setIsHydrated(true);
+  }, []);
 
   const fetchTokens = useCallback(async () => {
     try {
@@ -23,10 +29,14 @@ export default function Home() {
   }, [address]);
 
   useEffect(() => {
-    if (isConnected && address) {
+    if (isHydrated && isConnected && address) {
       fetchTokens();
     }
-  }, [isConnected, address, fetchTokens]);
+  }, [isHydrated, isConnected, address, fetchTokens]);
+
+  if (!isHydrated) {
+    return null; // or a loading spinner
+  }
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
